@@ -285,12 +285,12 @@ VOID_Ui = {
         $(item).addClass('checked');
         if (serif) {
             if ($('#stylesheet_noto').length < 1)
-                $('body').append('<link id="stylesheet_noto" href="https://fonts.googleapis.com/css?family=Noto+Serif+SC:400,700&amp;subset=chinese-simplified" rel="stylesheet">');
+                $('body').append('<link id="stylesheet_noto" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&display=swap" rel="stylesheet">');
             $('body').addClass('serif');
             VOID_Util.setCookie('serif', '1', 2592000); // 一个月
         } else {
             if ($('#stylesheet_droid').length < 1)
-                $('body').append('<link id="stylesheet_droid" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700" rel="stylesheet">');
+                $('body').append('<link id="stylesheet_droid" href="https://fonts.googleapis.com/css2?family=Droid+Serif:wght@400;700&display=swap" rel="stylesheet">');
             $('body').removeClass('serif');
             VOID_Util.setCookie('serif', '0', 2592000);
         }
