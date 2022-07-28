@@ -61,7 +61,7 @@ if (isset($_POST['void_action'])) {
     <link rel="stylesheet" href="<?php Utils::indexTheme('/assets/VOID-03aa32f846.css');?>">
 
     <!--JS-->
-    <script src="<?php Utils::indexTheme('/assets/bundle-header-b69228a59f.js'); ?>"></script>
+    <script src="<?php Utils::indexTheme('/assets/bundle-header-ded5281476.js'); ?>"></script>
     <script>
     VOIDConfig = {
         PJAX : <?php echo $setting['pjax'] ? 'true' : 'false'; ?>,
@@ -89,7 +89,7 @@ if (isset($_POST['void_action'])) {
         isDev: true
     }
     </script>
-    <script src="<?php Utils::indexTheme('/assets/header-da71c93476.js'); ?>"></script>
+    <script src="<?php Utils::indexTheme('/assets/header-b2f6be656b.js'); ?>"></script>
     
     <?php echo $setting['head']; ?>
     <style>
