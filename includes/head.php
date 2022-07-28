@@ -58,7 +58,7 @@ if (isset($_POST['void_action'])) {
 
     <!--CSS-->
     <link rel="stylesheet" href="<?php Utils::indexTheme('/assets/bundle-1e9bf597b1.css');?>">
-    <link rel="stylesheet" href="<?php Utils::indexTheme('/assets/VOID-03aa32f846.css');?>">
+    <link rel="stylesheet" href="<?php Utils::indexTheme('/assets/VOID-17a72fb629.css');?>">
 
     <!--JS-->
     <script src="<?php Utils::indexTheme('/assets/bundle-header-ded5281476.js'); ?>"></script>
@@ -73,6 +73,7 @@ if (isset($_POST['void_action'])) {
         colorScheme:  <?php echo $setting['colorScheme']; ?>,
         headerMode: <?php echo $setting['headerMode']; ?>,
         followSystemColorScheme: <?php echo $setting['followSystemColorScheme'] ? 'true' : 'false'; ?>,
+        browserLevelLoadingLazy: <?php echo $setting['browserLevelLoadingLazy'] ? 'true' : 'false'; ?>,
         VOIDPlugin: <?php echo $setting['VOIDPlugin'] ? 'true' : 'false'; ?>,
         votePath: "<?php Utils::index('/action/void?'); ?>",
         lightBg: "",
@@ -89,7 +90,7 @@ if (isset($_POST['void_action'])) {
         isDev: true
     }
     </script>
-    <script src="<?php Utils::indexTheme('/assets/header-b2f6be656b.js'); ?>"></script>
+    <script src="<?php Utils::indexTheme('/assets/header-158096047a.js'); ?>"></script>
     
     <?php echo $setting['head']; ?>
     <style>

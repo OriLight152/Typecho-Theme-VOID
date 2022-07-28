@@ -134,7 +134,7 @@ $setting = $GLOBALS['VOIDSetting'];
         <?php if($setting['enableMath']): ?>
         <script src='<?php Utils::indexTheme('/assets/libs/mathjax/2.7.4/MathJax.js'); ?>'></script>
         <?php endif; ?>
-        <script src="<?php Utils::indexTheme('/assets/VOID-0e78b69a54.js'); ?>"></script>
+        <script src="<?php Utils::indexTheme('/assets/VOID-8326cedebe.js'); ?>"></script>
         <script>
         if($(".OwO").length > 0){
             new OwO({
