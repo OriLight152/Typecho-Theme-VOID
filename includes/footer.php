@@ -130,11 +130,11 @@ $setting = $GLOBALS['VOIDSetting'];
         }
         </script>
         <?php endif; ?>
-        <script data-manual src="<?php Utils::indexTheme('/assets/bundle-06b08fd53e.js'); ?>"></script>
+        <script data-manual src="<?php Utils::indexTheme('/assets/bundle-eed03dba73.js'); ?>"></script>
         <?php if($setting['enableMath']): ?>
         <script src='<?php Utils::indexTheme('/assets/libs/mathjax/2.7.4/MathJax.js'); ?>'></script>
         <?php endif; ?>
-        <script src="<?php Utils::indexTheme('/assets/VOID-8326cedebe.js'); ?>"></script>
+        <script src="<?php Utils::indexTheme('/assets/VOID-a90aa06cc7.js'); ?>"></script>
         <script>
         if($(".OwO").length > 0){
             new OwO({

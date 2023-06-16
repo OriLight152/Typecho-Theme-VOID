@@ -58,10 +58,10 @@ if (isset($_POST['void_action'])) {
 
     <!--CSS-->
     <link rel="stylesheet" href="<?php Utils::indexTheme('/assets/bundle-1e9bf597b1.css');?>">
-    <link rel="stylesheet" href="<?php Utils::indexTheme('/assets/VOID-b595e473ba.css');?>">
+    <link rel="stylesheet" href="<?php Utils::indexTheme('/assets/VOID-fb7f9e990e.css');?>">
 
     <!--JS-->
-    <script src="<?php Utils::indexTheme('/assets/bundle-header-ded5281476.js'); ?>"></script>
+    <script src="<?php Utils::indexTheme('/assets/bundle-header-aa2e7346a7.js'); ?>"></script>
     <script>
     VOIDConfig = {
         PJAX : <?php echo $setting['pjax'] ? 'true' : 'false'; ?>,
